@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title> new Project</title>
+     <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+     {{>header}}
+     <div class="container index">
+          <div class="content">
+               <form id="form1">
+                    <div class="containerfluid">
+                         <input type="text" id="address">
+                         <button class="btn btn-primary">Search</button>
+                    </div>
+               </form>
+
+               <div id="locations"></div>
+               <div class="cinfo">
+                    <div id="country"></div>
+                    <div id="capital"></div>
+               </div>
+               <div class="winfo">
+                    <div id="icon"></div>
+                    <div id="witherState"></div>
+                    <div id="temp"></div>
+               </div>
+
+               <p id="error"></p>
+
+
+
+          </div>
+     </div>
+
+     <script src="js/script.js"></script>
+</body>
+
+</html>

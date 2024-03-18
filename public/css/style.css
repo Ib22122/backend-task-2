@@ -1,0 +1,94 @@
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(161, 161, 177);
+    opacity: .7;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(161, 161, 177);
+    opacity: .7;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 55px;
+
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+    color: black ;
+}
+
+
+.content {
+    margin: 50px auto;
+    padding: 10px;
+    width: 600px;
+    height: 60vh;
+    background-color: rgb(161, 161, 177);
+    color: black;
+
+}
+
+form {
+margin-bottom: 30px ;
+}
+form .containerfluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+form input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    outline: none;
+    padding: 6px;
+    height: 100%;
+}
+form input:hover {
+    cursor: pointer;
+}
+
+form button {
+    height: 100%;
+}
+.cinfo{
+    margin: 20px 0px;
+}
+.cinfo,
+.winfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#locations,
+#temp {
+    position: relative;
+    font-size: 38px;
+}
+
+sup {
+    position: absolute;
+    top: 15px;
+    right: -15px;
+    font-size: 15px;
+}
+.infoh3{
+margin-top: 50px;
+text-align: center;
+}
